@@ -1,0 +1,1000 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.danoeh.antennapod.debug"
+4    android:installLocation="auto"
+5    android:versionCode="2010395"
+6    android:versionName="2.1.3" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:6:5-66
+12-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:7:5-80
+13-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:9:5-78
+15-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:10:5-76
+16-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:10:22-74
+17
+18    <supports-screens
+18-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:12:5-17:39
+19        android:anyDensity="true"
+19-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:13:9-34
+20        android:largeScreens="true"
+20-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:14:9-36
+21        android:normalScreens="true"
+21-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:15:9-37
+22        android:smallScreens="true"
+22-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:16:9-36
+23        android:xlargeScreens="true" />
+23-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:17:9-37
+24
+25    <uses-feature
+25-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:19:5-21:35
+26        android:name="android.hardware.screen.portrait"
+26-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:20:9-56
+27        android:required="false" />
+27-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:21:9-33
+28    <uses-feature
+28-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:22:5-24:35
+29        android:name="android.hardware.touchscreen"
+29-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:23:9-52
+30        android:required="false" />
+30-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:24:9-33
+31
+32    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+32-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:26:5-75
+32-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:26:22-73
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+33-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:27:5-80
+33-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:27:22-78
+34    <uses-permission android:name="android.permission.BLUETOOTH" />
+34-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:16:5-68
+34-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:16:22-65
+35    <uses-permission android:name="android.permission.VIBRATE" />
+35-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:17:5-66
+35-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:17:22-63
+36
+37    <application
+37-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:29:5-349:19
+38        android:name="de.danoeh.antennapod.PodcastApp"
+38-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:30:9-55
+39        android:allowAudioPlaybackCapture="true"
+39-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:41:9-49
+40        android:allowBackup="true"
+40-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:20:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.3.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/cfbecf75b6930f1adbc7c9db84f764cd/core-1.3.0/AndroidManifest.xml:24:18-86
+42        android:backupAgent="de.danoeh.antennapod.core.backup.OpmlBackupAgent"
+42-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:34:9-59
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+44-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:31:9-43
+45        android:label="@string/app_name"
+45-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:33:9-41
+46        android:logo="@mipmap/ic_launcher"
+46-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:39:9-43
+47        android:resizeableActivity="true"
+47-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:40:9-42
+48        android:restoreAnyVersion="true"
+48-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:35:9-41
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:32:9-54
+50        android:supportsRtl="true"
+50-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:38:9-35
+51        android:testOnly="true"
+52        android:theme="@style/Theme.AntennaPod.Splash"
+52-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:36:9-55
+53        android:usesCleartextTraffic="true" >
+53-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:37:9-44
+54        <meta-data
+54-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:44:9-45:35
+55            android:name="android.webkit.WebView.MetricsOptOut"
+55-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:44:20-71
+56            android:value="true" />
+56-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:45:13-33
+57        <meta-data
+57-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:46:9-47:59
+58            android:name="com.google.android.gms.car.notification.SmallIcon"
+58-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:46:20-84
+59            android:resource="@drawable/ic_notification" />
+59-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:47:13-57
+60        <meta-data
+60-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:48:9-50:58
+61            android:name="com.google.android.gms.car.application"
+61-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:49:13-66
+62            android:resource="@xml/automotive_app_desc" />
+62-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:50:13-56
+63        <meta-data
+63-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:51:9-53:81
+64            android:name="com.google.android.backup.api_key"
+64-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:52:13-61
+65            android:value="AEdPqrEAAAAI3a05VToCTlqBymJrbFGaKQMvF-bBAuLsOdavBA" />
+65-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:53:13-79
+66
+67        <!-- Version < 3.0. DeX Mode and Screen Mirroring support -->
+68        <meta-data
+68-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:56:9-95
+69            android:name="com.samsung.android.keepalive.density"
+69-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:56:20-72
+70            android:value="true" />
+70-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:56:73-93
+71        <!-- Version >= 3.0. DeX Dual Mode support -->
+72        <meta-data
+72-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:58:9-109
+73            android:name="com.samsung.android.multidisplay.keep_process_alive"
+73-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:58:20-86
+74            android:value="true" />
+74-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:58:87-107
+75
+76        <activity
+76-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:60:9-79:20
+77            android:name="de.danoeh.antennapod.activity.SplashActivity"
+77-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:61:13-52
+78            android:configChanges="keyboardHidden|orientation|screenSize"
+78-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:63:13-74
+79            android:label="@string/app_name" >
+79-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:62:13-45
+80            <intent-filter>
+80-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:64:13-67:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:65:17-68
+81-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:65:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:66:17-76
+83-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:66:27-74
+84            </intent-filter>
+85            <intent-filter>
+85-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:69:13-74:29
+86                <action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH" />
+86-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:70:17-71:69
+86-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:70:25-104
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+88-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+89            </intent-filter>
+90
+91            <meta-data
+91-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:76:13-78:53
+92                android:name="android.app.shortcuts"
+92-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:77:17-53
+93                android:resource="@xml/shortcuts" />
+93-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:78:17-50
+94        </activity>
+95        <activity
+95-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:81:9-113:20
+96            android:name="de.danoeh.antennapod.activity.MainActivity"
+96-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:82:13-50
+97            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|density|uiMode|keyboard|navigation"
+97-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:83:13-141
+98            android:label="@string/app_name"
+98-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:86:13-45
+99            android:launchMode="singleTask"
+99-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:85:13-44
+100            android:windowSoftInputMode="stateAlwaysHidden" >
+100-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:84:13-60
+101            <intent-filter>
+101-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:87:13-97:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:17-69
+102-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+104-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:17-78
+105-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:27-75
+106
+107                <data
+107-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+108                    android:host="antennapod.org"
+108-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+109                    android:pathPrefix="/deeplink/main"
+109-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:95:21-56
+110                    android:scheme="https" />
+110-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+111            </intent-filter>
+112            <intent-filter>
+112-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:98:13-108:29
+113                <action android:name="android.intent.action.VIEW" />
+113-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:17-69
+113-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:25-66
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+115-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+116                <category android:name="android.intent.category.BROWSABLE" />
+116-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:17-78
+116-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:27-75
+117
+118                <data
+118-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+119                    android:host="antennapod.org"
+119-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+120                    android:pathPrefix="/deeplink/search"
+120-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:95:21-56
+121                    android:scheme="https" />
+121-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+122            </intent-filter>
+123            <intent-filter>
+123-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:109:13-112:29
+124                <action android:name="de.danoeh.antennapod.intents.MAIN_ACTIVITY" />
+124-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:110:17-85
+124-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:110:25-82
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+126-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+127            </intent-filter>
+128        </activity>
+129        <activity
+129-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:115:9-118:50
+130            android:name="de.danoeh.antennapod.activity.DownloadAuthenticationActivity"
+130-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:116:13-68
+131            android:launchMode="singleInstance"
+131-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:118:13-48
+132            android:theme="@style/Theme.AntennaPod.Dark.Translucent" />
+132-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:117:13-69
+133        <activity
+133-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:120:9-127:20
+134            android:name="de.danoeh.antennapod.activity.PreferenceActivity"
+134-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:121:13-56
+135            android:configChanges="keyboardHidden|orientation|screenSize"
+135-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:122:13-74
+136            android:label="@string/settings_label" >
+136-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:123:13-51
+137            <meta-data
+137-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:124:13-126:77
+138                android:name="android.support.PARENT_ACTIVITY"
+138-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:125:17-63
+139                android:value="de.danoeh.antennapod.activity.MainActivity" />
+139-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:126:17-75
+140        </activity>
+141        <activity
+141-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:129:9-135:20
+142            android:name="de.danoeh.antennapod.activity.WidgetConfigActivity"
+142-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:130:13-58
+143            android:label="@string/widget_settings" >
+143-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:131:13-52
+144            <intent-filter>
+144-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:132:13-134:29
+145                <action android:name="android.appwidget.action.APPWIDGET_CONFIGUR" />
+145-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:133:17-85
+145-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:133:25-83
+146            </intent-filter>
+147        </activity>
+148
+149        <service
+149-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:137:9-142:19
+150            android:name="de.danoeh.antennapod.core.service.PlayerWidgetJobService"
+150-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:138:13-64
+151            android:enabled="true"
+151-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:140:13-35
+152            android:exported="false"
+152-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:141:13-37
+153            android:permission="android.permission.BIND_JOB_SERVICE" >
+153-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:139:13-69
+154        </service>
+155
+156        <receiver android:name="de.danoeh.antennapod.core.receiver.PlayerWidget" >
+156-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:144:9-159:20
+156-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:144:19-61
+157            <intent-filter>
+157-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:145:13-147:29
+158                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+158-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:146:17-83
+158-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:146:25-81
+159            </intent-filter>
+160            <intent-filter>
+160-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:148:13-150:29
+161                <action android:name="de.danoeh.antennapod.FORCE_WIDGET_UPDATE" />
+161-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:149:17-82
+161-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:149:25-80
+162            </intent-filter>
+163
+164            <meta-data
+164-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:152:13-154:61
+165                android:name="android.appwidget.provider"
+165-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:153:17-58
+166                android:resource="@xml/player_widget_info" />
+166-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:154:17-59
+167
+168            <intent-filter>
+168-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:156:13-158:29
+169                <action android:name="de.danoeh.antennapod.STOP_WIDGET_UPDATE" />
+169-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:157:17-81
+169-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:157:25-79
+170            </intent-filter>
+171        </receiver>
+172
+173        <activity android:name="de.danoeh.antennapod.activity.StorageErrorActivity" >
+173-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:161:9-162:20
+173-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:161:19-64
+174        </activity>
+175        <activity
+175-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:163:9-198:20
+176            android:name="de.danoeh.antennapod.activity.OpmlImportActivity"
+176-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:164:13-56
+177            android:configChanges="keyboardHidden|orientation|screenSize"
+177-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:165:13-74
+178            android:label="@string/opml_import_label" >
+178-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:166:13-54
+179            <intent-filter>
+179-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:167:13-182:29
+180                <action android:name="android.intent.action.VIEW" />
+180-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:17-69
+180-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:25-66
+181
+182                <category android:name="android.intent.category.DEFAULT" />
+182-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+182-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+183                <category android:name="android.intent.category.BROWSABLE" />
+183-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:17-78
+183-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:27-75
+184
+185                <data android:mimeType="text/xml" />
+185-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+185-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+186                <data android:mimeType="text/x-opml" />
+186-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+186-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+187                <data android:mimeType="application/xml" />
+187-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+187-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+188                <data android:mimeType="application/octet-stream" />
+188-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+188-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+189                <data android:scheme="file" />
+189-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+189-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+190                <data android:scheme="content" />
+190-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+190-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+191                <data android:host="*" />
+191-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+191-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+192            </intent-filter>
+193            <intent-filter>
+193-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:183:13-197:29
+194                <action android:name="android.intent.action.SEND" />
+194-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:184:17-68
+194-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:184:25-66
+195
+196                <category android:name="android.intent.category.DEFAULT" />
+196-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+196-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+197                <category android:name="android.intent.category.BROWSABLE" />
+197-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:17-78
+197-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:27-75
+198
+199                <data android:mimeType="text/xml" />
+199-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+199-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+200                <data android:mimeType="text/plain" />
+200-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+200-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+201                <data android:mimeType="text/x-opml" />
+201-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+201-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+202                <data android:mimeType="application/xml" />
+202-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+202-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+203                <data android:mimeType="application/octet-stream" />
+203-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+203-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+204                <data android:scheme="http" />
+204-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+204-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+205                <data android:scheme="https" />
+205-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+205-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+206            </intent-filter>
+207        </activity>
+208        <activity
+208-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:199:9-202:20
+209            android:name="de.danoeh.antennapod.activity.OpmlFeedChooserActivity"
+209-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:200:13-61
+210            android:label="@string/opml_import_label" >
+210-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:201:13-54
+211        </activity>
+212        <activity
+212-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:203:9-209:20
+213            android:name="de.danoeh.antennapod.activity.BugReportActivity"
+213-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:204:17-59
+214            android:label="@string/bug_report_title" >
+214-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:205:17-57
+215            <meta-data
+215-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:124:13-126:77
+216                android:name="android.support.PARENT_ACTIVITY"
+216-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:125:17-63
+217                android:value="de.danoeh.antennapod.activity.PreferenceActivity" />
+217-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:126:17-75
+218        </activity>
+219        <activity
+219-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:211:9-223:20
+220            android:name="de.danoeh.antennapod.activity.VideoplayerActivity"
+220-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:212:13-57
+221            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+221-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:213:13-106
+222            android:screenOrientation="sensorLandscape"
+222-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:215:13-56
+223            android:supportsPictureInPicture="true" >
+223-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:214:13-52
+224            <meta-data
+224-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:124:13-126:77
+225                android:name="android.support.PARENT_ACTIVITY"
+225-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:125:17-63
+226                android:value="de.danoeh.antennapod.activity.MainActivity" />
+226-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:126:17-75
+227
+228            <intent-filter>
+228-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:219:13-222:29
+229                <action android:name="de.danoeh.antennapod.intents.VIDEO_PLAYER" />
+229-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:220:17-84
+229-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:220:25-81
+230
+231                <category android:name="android.intent.category.DEFAULT" />
+231-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+231-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+232            </intent-filter>
+233        </activity>
+234        <activity
+234-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:225:9-315:20
+235            android:name="de.danoeh.antennapod.activity.OnlineFeedViewActivity"
+235-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:226:13-60
+236            android:configChanges="orientation|screenSize"
+236-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:227:13-59
+237            android:label="@string/add_feed_label"
+237-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:229:13-51
+238            android:theme="@style/Theme.AntennaPod.Dark.Translucent" >
+238-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:228:13-69
+239            <meta-data
+239-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:124:13-126:77
+240                android:name="android.support.PARENT_ACTIVITY"
+240-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:125:17-63
+241                android:value="de.danoeh.antennapod.activity.MainActivity" />
+241-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:126:17-75
+242
+243            <!-- URLs ending with '.xml' or '.rss' -->
+244            <intent-filter>
+244-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:235:13-247:29
+245                <action android:name="android.intent.action.VIEW" />
+245-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:17-69
+245-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:25-66
+246
+247                <category android:name="android.intent.category.DEFAULT" />
+247-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+247-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+248                <category android:name="android.intent.category.BROWSABLE" />
+248-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:17-78
+248-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:27-75
+249
+250                <data android:scheme="http" />
+250-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+250-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+251                <data android:scheme="https" />
+251-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+251-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+252                <data android:host="*" />
+252-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+252-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+253                <data android:pathPattern=".*\\.xml" />
+253-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+253-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:244:23-53
+254                <data android:pathPattern=".*\\.rss" />
+254-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+254-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:244:23-53
+255                <data android:pathPattern=".*\\.atom" />
+255-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+255-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:244:23-53
+256            </intent-filter>
+257
+258            <!-- Feedburner URLs -->
+259            <intent-filter>
+259-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:250:13-262:29
+260                <action android:name="android.intent.action.VIEW" />
+260-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:17-69
+260-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:25-66
+261
+262                <category android:name="android.intent.category.DEFAULT" />
+262-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+262-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+263                <category android:name="android.intent.category.BROWSABLE" />
+263-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:17-78
+263-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:27-75
+264
+265                <data android:scheme="http" />
+265-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+265-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+266                <data android:scheme="https" />
+266-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+266-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+267                <data android:host="feeds.feedburner.com" />
+267-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+267-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+268                <data android:host="feedproxy.google.com" />
+268-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+268-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+269                <data android:host="feeds2.feedburner.com" />
+269-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+269-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+270                <data android:host="feedsproxy.google.com" />
+270-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+270-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+271            </intent-filter>
+272
+273            <!-- Files with mimeType rss/xml/atom -->
+274            <intent-filter>
+274-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:265:13-277:29
+275                <action android:name="android.intent.action.VIEW" />
+275-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:17-69
+275-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:25-66
+276
+277                <category android:name="android.intent.category.DEFAULT" />
+277-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+277-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+278                <category android:name="android.intent.category.BROWSABLE" />
+278-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:17-78
+278-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:27-75
+279
+280                <data android:scheme="http" />
+280-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+280-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+281                <data android:scheme="https" />
+281-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+281-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+282                <data android:mimeType="text/xml" />
+282-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+282-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+283                <data android:mimeType="application/rss+xml" />
+283-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+283-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+284                <data android:mimeType="application/atom+xml" />
+284-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+284-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+285                <data android:mimeType="application/xml" />
+285-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+285-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+286            </intent-filter>
+287
+288            <!-- Podcast protocols -->
+289            <intent-filter>
+289-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:280:13-290:29
+290                <action android:name="android.intent.action.VIEW" />
+290-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:17-69
+290-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:25-66
+291
+292                <category android:name="android.intent.category.DEFAULT" />
+292-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+292-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+293                <category android:name="android.intent.category.BROWSABLE" />
+293-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:17-78
+293-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:27-75
+294
+295                <data android:scheme="itpc" />
+295-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+295-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+296                <data android:scheme="pcast" />
+296-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+296-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+297                <data android:scheme="feed" />
+297-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+297-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+298                <data android:scheme="antennapod-subscribe" />
+298-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+298-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+299            </intent-filter>
+300
+301            <!-- Support for subscribeonandroid.com URLS -->
+302            <intent-filter>
+302-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:293:13-305:29
+303                <action android:name="android.intent.action.VIEW" />
+303-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:17-69
+303-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:25-66
+304
+305                <category android:name="android.intent.category.DEFAULT" />
+305-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+305-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+306                <category android:name="android.intent.category.BROWSABLE" />
+306-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:17-78
+306-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:27-75
+307
+308                <data android:pathPattern=".*\\..*/.*" />
+308-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+308-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:244:23-53
+309                <data android:host="subscribeonandroid.com" />
+309-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+309-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+310                <data android:host="www.subscribeonandroid.com" />
+310-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+310-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+311                <data android:host="*subscribeonandroid.com" />
+311-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+311-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+312                <data android:scheme="http" />
+312-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+312-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+313                <data android:scheme="https" />
+313-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+313-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+314            </intent-filter>
+315            <intent-filter>
+315-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:307:13-313:29
+316                <action android:name="android.intent.action.SEND" />
+316-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:184:17-68
+316-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:184:25-66
+317
+318                <category android:name="android.intent.category.DEFAULT" />
+318-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+318-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+319
+320                <data android:mimeType="text/plain" />
+320-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+320-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+321            </intent-filter>
+322        </activity>
+323
+324        <receiver android:name="de.danoeh.antennapod.receiver.ConnectivityActionReceiver" >
+324-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:317:9-321:20
+324-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:317:19-70
+325            <intent-filter>
+325-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:318:13-320:29
+326                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+326-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:319:17-78
+326-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:319:25-76
+327            </intent-filter>
+328        </receiver>
+329        <receiver android:name="de.danoeh.antennapod.receiver.PowerConnectionReceiver" >
+329-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:323:9-328:20
+329-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:323:19-67
+330            <intent-filter>
+330-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:324:13-327:29
+331                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+331-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:325:17-86
+331-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:325:25-84
+332                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+332-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:326:17-89
+332-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:326:25-87
+333            </intent-filter>
+334        </receiver>
+335        <receiver android:name="de.danoeh.antennapod.receiver.SPAReceiver" >
+335-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:330:9-334:20
+335-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:330:19-55
+336            <intent-filter>
+336-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:331:13-333:29
+337                <action android:name="de.danoeh.antennapdsp.intent.SP_APPS_QUERY_FEEDS_RESPONSE" />
+337-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:332:17-99
+337-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:332:25-97
+338            </intent-filter>
+339        </receiver>
+340
+341        <provider
+341-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:336:9-344:20
+342            android:name="androidx.core.content.FileProvider"
+342-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:338:13-62
+343            android:authorities="@string/provider_authority"
+343-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:337:13-61
+344            android:exported="false"
+344-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:339:13-37
+345            android:grantUriPermissions="true" >
+345-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:340:13-47
+346            <meta-data
+346-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:341:13-343:57
+347                android:name="android.support.FILE_PROVIDER_PATHS"
+347-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:342:17-67
+348                android:resource="@xml/provider_paths" />
+348-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:343:17-55
+349        </provider>
+350
+351        <meta-data
+351-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:346:9-348:47
+352            android:name="com.google.android.actions"
+352-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:347:13-54
+353            android:resource="@xml/actions" />
+353-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:348:13-44
+354
+355        <service
+355-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:23:9-25:38
+356            android:name="de.danoeh.antennapod.core.service.download.DownloadService"
+356-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:24:13-86
+357            android:enabled="true" />
+357-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:25:13-35
+358        <service
+358-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:26:9-35:19
+359            android:name="de.danoeh.antennapod.core.service.playback.PlaybackService"
+359-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:27:13-86
+360            android:enabled="true"
+360-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:28:13-35
+361            android:exported="true"
+361-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:29:13-36
+362            android:label="@string/app_name" >
+362-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:30:13-45
+363            <intent-filter>
+363-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:32:13-34:29
+364                <action android:name="android.media.browse.MediaBrowserService" />
+364-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:33:17-83
+364-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:33:25-80
+365            </intent-filter>
+366        </service>
+367
+368        <receiver
+368-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:37:9-46:20
+369            android:name="de.danoeh.antennapod.core.receiver.MediaButtonReceiver"
+369-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:38:13-82
+370            android:exported="true" >
+370-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:39:13-36
+371            <intent-filter>
+371-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:40:13-42:29
+372                <action android:name="android.intent.action.MEDIA_BUTTON" />
+372-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:41:17-77
+372-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:41:25-74
+373            </intent-filter>
+374            <intent-filter>
+374-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:43:13-45:29
+375                <action android:name="de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER" />
+375-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:44:17-86
+375-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:44:25-83
+376            </intent-filter>
+377        </receiver>
+378        <receiver
+378-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:47:9-51:47
+379            android:name="de.danoeh.antennapod.core.receiver.FeedUpdateReceiver"
+379-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:48:13-81
+380            android:exported="true"
+380-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:49:13-36
+381            android:label="@string/feed_update_receiver_name" /> <!-- allow feeds update to be triggered by external apps -->
+381-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:50:13-62
+382        <service
+382-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:53:9-56:72
+383            android:name="de.danoeh.antennapod.core.widget.WidgetUpdaterJobService"
+383-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:54:13-84
+384            android:exported="true"
+384-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:55:13-36
+385            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+385-->[:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:56:13-69
+386        <activity
+386-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
+387            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+387-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
+388            android:enabled="false"
+388-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
+389            android:exported="false"
+389-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
+390            android:launchMode="singleInstance"
+390-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
+391            android:process=":playcore_missing_splits_activity"
+391-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
+392            android:stateNotNeeded="true" />
+392-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
+393        <activity
+393-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
+394            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+394-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
+395            android:enabled="false"
+395-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
+396            android:exported="false"
+396-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
+397            android:stateNotNeeded="true"
+397-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
+398            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+398-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
+399        <service
+399-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
+400            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+400-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
+401            android:enabled="false"
+401-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
+402            android:exported="true" />
+402-->[com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
+403
+404        <uses-library
+404-->[com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:10:9-12:40
+405            android:name="com.google.android.wearable"
+405-->[com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:11:13-55
+406            android:required="false" />
+406-->[com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:12:13-37
+407
+408        <provider
+408-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:31:9-37:35
+409            android:name="androidx.work.impl.WorkManagerInitializer"
+409-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:32:13-69
+410            android:authorities="de.danoeh.antennapod.debug.workmanager-init"
+410-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:33:13-68
+411            android:directBootAware="false"
+411-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:34:13-44
+412            android:exported="false"
+412-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:35:13-37
+413            android:multiprocess="true" />
+413-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:36:13-40
+414
+415        <service
+415-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:39:9-44:35
+416            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+416-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:40:13-88
+417            android:directBootAware="false"
+417-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:41:13-44
+418            android:enabled="@bool/enable_system_alarm_service_default"
+418-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:42:13-72
+419            android:exported="false" />
+419-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:43:13-37
+420        <service
+420-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:45:9-51:35
+421            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+421-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:46:13-84
+422            android:directBootAware="false"
+422-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:47:13-44
+423            android:enabled="@bool/enable_system_job_service_default"
+423-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:48:13-70
+424            android:exported="true"
+424-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:49:13-36
+425            android:permission="android.permission.BIND_JOB_SERVICE" />
+425-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:50:13-69
+426        <service
+426-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:52:9-57:35
+427            android:name="androidx.work.impl.foreground.SystemForegroundService"
+427-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:53:13-81
+428            android:directBootAware="false"
+428-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:54:13-44
+429            android:enabled="@bool/enable_system_foreground_service_default"
+429-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:55:13-77
+430            android:exported="false" />
+430-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:56:13-37
+431
+432        <receiver
+432-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:59:9-64:35
+433            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+433-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:60:13-88
+434            android:directBootAware="false"
+434-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:61:13-44
+435            android:enabled="true"
+435-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:62:13-35
+436            android:exported="false" />
+436-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:63:13-37
+437        <receiver
+437-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:65:9-75:20
+438            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+438-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:66:13-106
+439            android:directBootAware="false"
+439-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:67:13-44
+440            android:enabled="false"
+440-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:68:13-36
+441            android:exported="false" >
+441-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:69:13-37
+442            <intent-filter>
+442-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:324:13-327:29
+443                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+443-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:325:17-86
+443-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:325:25-84
+444                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+444-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:326:17-89
+444-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:326:25-87
+445            </intent-filter>
+446        </receiver>
+447        <receiver
+447-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:76:9-86:20
+448            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+448-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:77:13-104
+449            android:directBootAware="false"
+449-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:78:13-44
+450            android:enabled="false"
+450-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:79:13-36
+451            android:exported="false" >
+451-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:80:13-37
+452            <intent-filter>
+452-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:82:13-85:29
+453                <action android:name="android.intent.action.BATTERY_OKAY" />
+453-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:83:17-77
+453-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:83:25-74
+454                <action android:name="android.intent.action.BATTERY_LOW" />
+454-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:84:17-76
+454-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:84:25-73
+455            </intent-filter>
+456        </receiver>
+457        <receiver
+457-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:87:9-97:20
+458            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+458-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:88:13-104
+459            android:directBootAware="false"
+459-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:89:13-44
+460            android:enabled="false"
+460-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:90:13-36
+461            android:exported="false" >
+461-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:91:13-37
+462            <intent-filter>
+462-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:93:13-96:29
+463                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+463-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:94:17-83
+463-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:94:25-80
+464                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+464-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:95:17-82
+464-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:95:25-79
+465            </intent-filter>
+466        </receiver>
+467        <receiver
+467-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:98:9-107:20
+468            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+468-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:99:13-103
+469            android:directBootAware="false"
+469-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:100:13-44
+470            android:enabled="false"
+470-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:101:13-36
+471            android:exported="false" >
+471-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:102:13-37
+472            <intent-filter>
+472-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:318:13-320:29
+473                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+473-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:319:17-78
+473-->/Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:319:25-76
+474            </intent-filter>
+475        </receiver>
+476        <receiver
+476-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:108:9-119:20
+477            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+477-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:109:13-88
+478            android:directBootAware="false"
+478-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:110:13-44
+479            android:enabled="false"
+479-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:111:13-36
+480            android:exported="false" >
+480-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:112:13-37
+481            <intent-filter>
+481-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:114:13-118:29
+482                <action android:name="android.intent.action.BOOT_COMPLETED" />
+482-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:115:17-79
+482-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:115:25-76
+483                <action android:name="android.intent.action.TIME_SET" />
+483-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:116:17-73
+483-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:116:25-70
+484                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+484-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:117:17-81
+484-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:117:25-78
+485            </intent-filter>
+486        </receiver>
+487        <receiver
+487-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:120:9-129:20
+488            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+488-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:121:13-99
+489            android:directBootAware="false"
+489-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:122:13-44
+490            android:enabled="@bool/enable_system_alarm_service_default"
+490-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:123:13-72
+491            android:exported="false" >
+491-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:124:13-37
+492            <intent-filter>
+492-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:126:13-128:29
+493                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+493-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:127:17-98
+493-->[androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:127:25-95
+494            </intent-filter>
+495        </receiver>
+496
+497        <service
+497-->[androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
+498            android:name="androidx.room.MultiInstanceInvalidationService"
+498-->[androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
+499            android:exported="false" />
+499-->[androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
+500
+501        <meta-data
+501-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:11:9-13:43
+502            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+502-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:12:13-84
+503            android:value="GlideModule" />
+503-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:13:13-40
+504    </application>
+505
+506</manifest>

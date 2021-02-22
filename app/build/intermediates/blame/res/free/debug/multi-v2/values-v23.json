@@ -1,0 +1,114 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/azat/.gradle/caches/transforms-2/files-2.1/4e24468fbbc1858a674b12f29a193625/appcompat-1.2.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,22,36,37,38,41,45,46,47,48",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "184,319,454,529,616,1500,2396,2515,2642,2864,3088,3203,3310,3423",
+                        "endLines": "4,5,6,7,21,35,36,37,40,44,45,46,47,51",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "314,449,524,611,1495,2391,2510,2637,2859,3083,3198,3305,3418,3648"
+                    }
+                },
+                {
+                    "source": "/Users/azat/.gradle/caches/transforms-2/files-2.1/34d156a72225b1e23fe472a0cd87b8ff/material-1.1.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,320",
+                        "endLines": "5,9",
+                        "endColumns": "10,10",
+                        "endOffsets": "315,588"
+                    },
+                    "to": {
+                        "startLines": "89,93",
+                        "startColumns": "4,4",
+                        "startOffsets": "5548,5813",
+                        "endLines": "92,96",
+                        "endColumns": "10,10",
+                        "endOffsets": "5808,6081"
+                    }
+                },
+                {
+                    "source": "/Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "/Users/azat/.gradle/caches/transforms-2/files-2.1/6e55615df06e4ef129a5440432e06c24/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "60",
+                        "startColumns": "4",
+                        "startOffsets": "3987",
+                        "endLines": "62",
+                        "endColumns": "12",
+                        "endOffsets": "4132"
+                    }
+                },
+                {
+                    "source": "/Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/res/values-v23/values.xml",
+                    "from": {
+                        "startLines": "4,8,12,20,23",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "211,373,537,938,1079",
+                        "endLines": "7,11,19,22,24",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "372,536,937,1078,1178"
+                    },
+                    "to": {
+                        "startLines": "52,56,76,84,87",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "3653,3819,4894,5299,5444",
+                        "endLines": "55,59,83,86,88",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "3814,3982,5294,5439,5543"
+                    }
+                },
+                {
+                    "source": "/Users/azat/Documents/GitHub/antena/core/build/intermediates/packaged_res/free/debug/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,7,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,353,648",
+                        "endLines": "6,11,14",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "348,643,807"
+                    },
+                    "to": {
+                        "startLines": "63,68,73",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "4137,4435,4730",
+                        "endLines": "67,72,75",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "4430,4725,4889"
+                    }
+                }
+            ]
+        }
+    ]
+}

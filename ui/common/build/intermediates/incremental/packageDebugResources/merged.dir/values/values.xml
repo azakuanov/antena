@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularProgressBar">
+        <attr format="color" name="foregroundColor"/>
+    </declare-styleable>
+    <declare-styleable name="PlaybackSpeedIndicatorView">
+        <attr name="foregroundColor"/> <!-- format omitted to avoid double definition -->
+    </declare-styleable>
+    <declare-styleable name="SquareImageView">
+        <attr format="enum" name="direction">
+            <enum name="width" value="0"/>
+            <enum name="height" value="1"/>
+            <enum name="minimum" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

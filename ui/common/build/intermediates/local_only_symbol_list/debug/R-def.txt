@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+attr? direction
+attr? foregroundColor
+id height
+id minimum
+id width
+styleable CircularProgressBar foregroundColor
+styleable PlaybackSpeedIndicatorView foregroundColor
+styleable SquareImageView direction

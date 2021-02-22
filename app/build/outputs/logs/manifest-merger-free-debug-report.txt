@@ -1,0 +1,996 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:2:1-351:12
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:2:1-351:12
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:2:1-351:12
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:2:1-351:12
+MERGED from [androidx.databinding:viewbinding:3.6.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/1ba18d6fc68ea42e2dff22d183c24056/jetified-viewbinding-3.6.3/AndroidManifest.xml:17:1-22:12
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:2:1-59:12
+MERGED from [:ui:app-start-intent] /Users/azat/Documents/GitHub/antena/ui/app-start-intent/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:ui:common] /Users/azat/Documents/GitHub/antena/ui/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/5d2a9ab81b4cc4d8425568bbee0e9ff5/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.github.ByteHamster:SearchPreference:v2.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b747737933f6dcd97f0dca7584a092c6/jetified-SearchPreference-v2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/72e71029a019b1787d74899cc3252927/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.leinardi:FloatingActionButtonSpeedDial:3.1.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/0e6a025ec0cf0980e72a4bf1e00b37fd/jetified-FloatingActionButtonSpeedDial-3.1.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/34d156a72225b1e23fe472a0cd87b8ff/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.shts:TriangleLabelView:1.1.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/ce5ddd49f99e898ebef98a0130cc0d27/jetified-TriangleLabelView-1.1.2/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.skydoves:balloon:1.1.5] /Users/azat/.gradle/caches/transforms-2/files-2.1/7a0b1fd3f110b444be0a40d671714bcd/jetified-balloon-1.1.5/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.mediarouter:mediarouter:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/c936a40ead30b309fdc535cb79aabc42/mediarouter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/4e24468fbbc1858a674b12f29a193625/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/80aa17839fb0de06c06faee1d8900eb3/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.joanzapata.iconify:android-iconify-fontawesome:2.2.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/c2aaf341c346b928c370605a67df0543/jetified-android-iconify-fontawesome-2.2.2/AndroidManifest.xml:2:1-8:12
+MERGED from [com.joanzapata.iconify:android-iconify-material:2.2.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/47c5ba255477b698aa026555611e4972/jetified-android-iconify-material-2.2.2/AndroidManifest.xml:2:1-8:12
+MERGED from [com.joanzapata.iconify:android-iconify:2.2.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/d43347032c9694579a9003cb21817769/jetified-android-iconify-2.2.2/AndroidManifest.xml:2:1-8:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/1fce78db051842cb898283b4e6634ad7/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b1c95626f863b1aaddc35230c602e583/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/01903b009a17f8eb33ba6777d730c619/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/ba9718988e247185ba46276ed80a7b24/jetified-exoplayer-2.11.8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/34542ef18719f520c3d7a4cf134ee7af/jetified-exoplayer-ui-2.11.8/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/0f9ea5154acd008eddcb2224a98aa301/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-alpha01] /Users/azat/.gradle/caches/transforms-2/files-2.1/db1176dc4a83c01c09886ec9c404b749/jetified-viewpager2-1.1.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-alpha02] /Users/azat/.gradle/caches/transforms-2/files-2.1/659220585ac0afcb8be27bb3f32e604a/recyclerview-1.2.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:17:1-132:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/edbb80410c2a53098538daea215e3fe7/jetified-glide-4.8.0/AndroidManifest.xml:2:1-12:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/359fffb6ba3439dde2a8da061a0ade77/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.github.AntennaPod:AntennaPod-AudioPlayer:v2.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/eaf7a7b61a6784611c873a9463db5b2d/jetified-AntennaPod-AudioPlayer-v2.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.palette:palette:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/3aa78e4c8320127bc9ee51b589306d7d/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/01608e1e4c72e607a8f39bb5a2311a61/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/76b568c6f36e746b7d753ce62e160b0f/documentfile-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/0f10f3ff8af3b533f2dc0c2655bfc44e/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/e1aa9fbdbbcdfdedc886dde3017f8393/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/07295853cfe3941600e6dc07f52419c8/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/7c073aad28e7d9962184b01389c375b7/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/c4444e97d995c45082fc36cdad9f4635/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/0eb43b98dc4c4ba698e3c317cf91f34a/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8a3accdcbf50a6997c096452966cb486/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/fe8d7deb1c5179c59013401716b4c3e8/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/376f150364fb08ffdeff70f4790ded37/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/99225feaee6147db8f9b6a138f033563/percentlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/d59cb1b7deae11a87d52ee423cf6b788/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/ce6846c3d1eac614bb9b034a3c1b77b1/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/053a1d83f55771335ee1d75fc9826f40/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/604b7e8f96290680ea5df7c9bebe37ec/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/cfbecf75b6930f1adbc7c9db84f764cd/core-1.3.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/84923785ed744a554a059dabc610c456/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/034a48de7992aa2c1bfe39b05db23f5b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/372d3afdd6a4f04a7ad5ab9f4a8855c5/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/081d36616a0df22ec19a6491af4f9060/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/6e55615df06e4ef129a5440432e06c24/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/6ad9d7c3354a8162bfc26cf962c2d38b/jetified-gifdecoder-4.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/901564422fae0a9c99c57042eaf55d2a/jetified-exoplayer-dash-2.11.8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/2b3b25f6fdc4467703ce94eb4db8d77d/jetified-exoplayer-hls-2.11.8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/3d750b67d9bdc3f7e95a134a39bd0a31/jetified-exoplayer-smoothstreaming-2.11.8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/d627947140be9fbd216fac140677bb71/jetified-exoplayer-core-2.11.8/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8f014668c2a5b0f2e39faf3939a2e9f0/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/eb9ddfdf9b0912dae95d92f9d7d8734c/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/60f0d688c201be5f439562fb859c1ca3/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/f8b181885c9a25a34401a7ac5f22c9d9/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/c3d2dc93c43ff0427b7cbf44c40afc40/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/953ca17c4f29c3f59c7bf6bd4c744279/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/70b7ba6183a794971c637feafdadd468/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/78d375792c01b926d9a43d0a537bbfd8/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b22be536486e5756020e5007bde6aac9/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/a00a30e50991b36ec363df156c81216c/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/5236da57d29bc0033e511889f647ed87/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.conscrypt:conscrypt-android:2.4.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/f050cf8431eb4030ac0629b8770971f2/jetified-conscrypt-android-2.4.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:2:1-16:12
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:2:1-351:12
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:2:1-351:12
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:2:1-351:12
+	package
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:2:1-351:12
+		INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:2:1-351:12
+		INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:4:5-35
+uses-permission#android.permission.INTERNET
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:10:5-67
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:7:5-80
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:11:5-81
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:12:5-68
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:12:5-68
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:9:5-78
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:13:5-79
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:13:5-79
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/d627947140be9fbd216fac140677bb71/jetified-exoplayer-core-2.11.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/d627947140be9fbd216fac140677bb71/jetified-exoplayer-core-2.11.8/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:10:5-76
+MERGED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:8:3-74
+MERGED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:8:3-74
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:28:5-77
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:10:22-74
+supports-screens
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:12:5-17:39
+	android:largeScreens
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:14:9-36
+	android:smallScreens
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:16:9-36
+	android:normalScreens
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:15:9-37
+	android:xlargeScreens
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:17:9-37
+	android:anyDensity
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:13:9-34
+uses-feature#android.hardware.screen.portrait
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:19:5-21:35
+	android:required
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:20:9-56
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:22:5-24:35
+	android:required
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:23:9-52
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:26:5-75
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:14:5-76
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:26:22-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:27:5-80
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:15:5-81
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:15:5-81
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:27:5-81
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:27:22-78
+application
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:29:5-349:19
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:19:5-57:19
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:19:5-57:19
+MERGED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:10:3-17:17
+MERGED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:10:3-17:17
+MERGED from [com.google.android.material:material:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/34d156a72225b1e23fe472a0cd87b8ff/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/34d156a72225b1e23fe472a0cd87b8ff/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.shts:TriangleLabelView:1.1.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/ce5ddd49f99e898ebef98a0130cc0d27/jetified-TriangleLabelView-1.1.2/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.shts:TriangleLabelView:1.1.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/ce5ddd49f99e898ebef98a0130cc0d27/jetified-TriangleLabelView-1.1.2/AndroidManifest.xml:11:5-14:19
+MERGED from [com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:9:5-13:19
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:30:5-130:19
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:30:5-130:19
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/edbb80410c2a53098538daea215e3fe7/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/edbb80410c2a53098538daea215e3fe7/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.3.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/cfbecf75b6930f1adbc7c9db84f764cd/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/cfbecf75b6930f1adbc7c9db84f764cd/core-1.3.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/034a48de7992aa2c1bfe39b05db23f5b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/034a48de7992aa2c1bfe39b05db23f5b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:24:5-28:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/6ad9d7c3354a8162bfc26cf962c2d38b/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/6ad9d7c3354a8162bfc26cf962c2d38b/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [org.conscrypt:conscrypt-android:2.4.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/f050cf8431eb4030ac0629b8770971f2/jetified-conscrypt-android-2.4.0/AndroidManifest.xml:11:5-20
+MERGED from [org.conscrypt:conscrypt-android:2.4.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/f050cf8431eb4030ac0629b8770971f2/jetified-conscrypt-android-2.4.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:10:5-14:19
+	android:roundIcon
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:32:9-54
+	android:allowAudioPlaybackCapture
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:41:9-49
+	android:restoreAnyVersion
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:35:9-41
+	android:icon
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:31:9-43
+	android:backupAgent
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:34:9-59
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/cfbecf75b6930f1adbc7c9db84f764cd/core-1.3.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:38:9-35
+	android:label
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:33:9-41
+	android:resizeableActivity
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:40:9-42
+	android:allowBackup
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:36:9-55
+	android:logo
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:39:9-43
+	android:usesCleartextTraffic
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:37:9-44
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:30:9-55
+meta-data#android.webkit.WebView.MetricsOptOut
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:44:9-45:35
+	android:value
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:45:13-33
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:44:20-71
+meta-data#com.google.android.gms.car.notification.SmallIcon
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:46:9-47:59
+	android:resource
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:47:13-57
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:46:20-84
+meta-data#com.google.android.gms.car.application
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:48:9-50:58
+	android:resource
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:50:13-56
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:49:13-66
+meta-data#com.google.android.backup.api_key
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:51:9-53:81
+	android:value
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:53:13-79
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:52:13-61
+meta-data#com.samsung.android.keepalive.density
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:56:9-95
+	android:value
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:56:73-93
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:56:20-72
+meta-data#com.samsung.android.multidisplay.keep_process_alive
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:58:9-109
+	android:value
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:58:87-107
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:58:20-86
+activity#de.danoeh.antennapod.activity.SplashActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:60:9-79:20
+	android:label
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:62:13-45
+	android:configChanges
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:63:13-74
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:61:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:64:13-67:29
+action#android.intent.action.MAIN
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:65:17-68
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:65:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:66:17-76
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:66:27-74
+intent-filter#action:name:android.media.action.MEDIA_PLAY_FROM_SEARCH+category:name:android.intent.category.DEFAULT
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:69:13-74:29
+action#android.media.action.MEDIA_PLAY_FROM_SEARCH
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:70:17-71:69
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:70:25-104
+category#android.intent.category.DEFAULT
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:17-73:57
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:72:27-94
+meta-data#android.app.shortcuts
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:76:13-78:53
+	android:resource
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:78:17-50
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:77:17-53
+activity#de.danoeh.antennapod.activity.MainActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:81:9-113:20
+	android:label
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:86:13-45
+	android:launchMode
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:85:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:84:13-60
+	android:configChanges
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:83:13-141
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:82:13-50
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:antennapod.org+data:pathPrefix:/deeplink/main+data:scheme:https
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:87:13-97:29
+action#android.intent.action.VIEW
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:17-69
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:88:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:17-78
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:91:27-75
+data
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:93:17-96:46
+	android:host
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:94:21-50
+	android:scheme
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:96:21-43
+	android:pathPattern
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:244:23-53
+	android:mimeType
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:173:23-50
+	android:pathPrefix
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:95:21-56
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:antennapod.org+data:pathPrefix:/deeplink/search+data:scheme:https
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:98:13-108:29
+intent-filter#action:name:de.danoeh.antennapod.intents.MAIN_ACTIVITY+category:name:android.intent.category.DEFAULT
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:109:13-112:29
+action#de.danoeh.antennapod.intents.MAIN_ACTIVITY
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:110:17-85
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:110:25-82
+activity#de.danoeh.antennapod.activity.DownloadAuthenticationActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:115:9-118:50
+	android:launchMode
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:118:13-48
+	android:theme
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:117:13-69
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:116:13-68
+activity#de.danoeh.antennapod.activity.PreferenceActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:120:9-127:20
+	android:label
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:123:13-51
+	android:configChanges
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:122:13-74
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:121:13-56
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:124:13-126:77
+	android:value
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:126:17-75
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:125:17-63
+activity#de.danoeh.antennapod.activity.WidgetConfigActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:129:9-135:20
+	android:label
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:131:13-52
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:130:13-58
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGUR
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:132:13-134:29
+action#android.appwidget.action.APPWIDGET_CONFIGUR
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:133:17-85
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:133:25-83
+service#de.danoeh.antennapod.core.service.PlayerWidgetJobService
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:137:9-142:19
+	android:enabled
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:140:13-35
+	android:exported
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:141:13-37
+	android:permission
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:139:13-69
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:138:13-64
+receiver#de.danoeh.antennapod.core.receiver.PlayerWidget
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:144:9-159:20
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:144:19-61
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:145:13-147:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:146:17-83
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:146:25-81
+intent-filter#action:name:de.danoeh.antennapod.FORCE_WIDGET_UPDATE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:148:13-150:29
+action#de.danoeh.antennapod.FORCE_WIDGET_UPDATE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:149:17-82
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:149:25-80
+meta-data#android.appwidget.provider
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:152:13-154:61
+	android:resource
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:154:17-59
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:153:17-58
+intent-filter#action:name:de.danoeh.antennapod.STOP_WIDGET_UPDATE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:156:13-158:29
+action#de.danoeh.antennapod.STOP_WIDGET_UPDATE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:157:17-81
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:157:25-79
+activity#de.danoeh.antennapod.activity.StorageErrorActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:161:9-162:20
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:161:19-64
+activity#de.danoeh.antennapod.activity.OpmlImportActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:163:9-198:20
+	android:label
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:166:13-54
+	android:configChanges
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:165:13-74
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:164:13-56
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:application/octet-stream+data:mimeType:application/xml+data:mimeType:text/x-opml+data:mimeType:text/xml+data:scheme:content+data:scheme:file
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:167:13-182:29
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:application/octet-stream+data:mimeType:application/xml+data:mimeType:text/plain+data:mimeType:text/x-opml+data:mimeType:text/xml+data:scheme:http+data:scheme:https
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:183:13-197:29
+action#android.intent.action.SEND
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:184:17-68
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:184:25-66
+activity#de.danoeh.antennapod.activity.OpmlFeedChooserActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:199:9-202:20
+	android:label
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:201:13-54
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:200:13-61
+activity#de.danoeh.antennapod.activity.BugReportActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:203:9-209:20
+	android:label
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:205:17-57
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:204:17-59
+activity#de.danoeh.antennapod.activity.VideoplayerActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:211:9-223:20
+	android:screenOrientation
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:215:13-56
+	android:supportsPictureInPicture
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:214:13-52
+	android:configChanges
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:213:13-106
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:212:13-57
+intent-filter#action:name:de.danoeh.antennapod.intents.VIDEO_PLAYER+category:name:android.intent.category.DEFAULT
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:219:13-222:29
+action#de.danoeh.antennapod.intents.VIDEO_PLAYER
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:220:17-84
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:220:25-81
+activity#de.danoeh.antennapod.activity.OnlineFeedViewActivity
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:225:9-315:20
+	android:label
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:229:13-51
+	android:configChanges
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:227:13-59
+	android:theme
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:228:13-69
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:226:13-60
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:.*\\.atom+data:pathPattern:.*\\.rss+data:pathPattern:.*\\.xml+data:scheme:http+data:scheme:https
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:235:13-247:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:feedproxy.google.com+data:host:feeds.feedburner.com+data:host:feeds2.feedburner.com+data:host:feedsproxy.google.com+data:scheme:http+data:scheme:https
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:250:13-262:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:mimeType:application/atom+xml+data:mimeType:application/rss+xml+data:mimeType:application/xml+data:mimeType:text/xml+data:scheme:http+data:scheme:https
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:265:13-277:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:antennapod-subscribe+data:scheme:feed+data:scheme:itpc+data:scheme:pcast
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:280:13-290:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*subscribeonandroid.com+data:host:subscribeonandroid.com+data:host:www.subscribeonandroid.com+data:pathPattern:.*\\..*/.*+data:scheme:http+data:scheme:https
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:293:13-305:29
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:307:13-313:29
+receiver#de.danoeh.antennapod.receiver.ConnectivityActionReceiver
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:317:9-321:20
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:317:19-70
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:318:13-320:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:319:17-78
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:319:25-76
+receiver#de.danoeh.antennapod.receiver.PowerConnectionReceiver
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:323:9-328:20
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:323:19-67
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:324:13-327:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:325:17-86
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:325:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:326:17-89
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:326:25-87
+receiver#de.danoeh.antennapod.receiver.SPAReceiver
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:330:9-334:20
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:330:19-55
+intent-filter#action:name:de.danoeh.antennapdsp.intent.SP_APPS_QUERY_FEEDS_RESPONSE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:331:13-333:29
+action#de.danoeh.antennapdsp.intent.SP_APPS_QUERY_FEEDS_RESPONSE
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:332:17-99
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:332:25-97
+provider#androidx.core.content.FileProvider
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:336:9-344:20
+	android:grantUriPermissions
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:340:13-47
+	android:authorities
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:337:13-61
+	android:exported
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:339:13-37
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:338:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:341:13-343:57
+	android:resource
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:343:17-55
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:342:17-67
+meta-data#com.google.android.actions
+ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:346:9-348:47
+	android:resource
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:348:13-44
+	android:name
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml:347:13-54
+uses-sdk
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:3.6.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/1ba18d6fc68ea42e2dff22d183c24056/jetified-viewbinding-3.6.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/1ba18d6fc68ea42e2dff22d183c24056/jetified-viewbinding-3.6.3/AndroidManifest.xml:20:5-44
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:6:5-8:41
+MERGED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:6:5-8:41
+MERGED from [:ui:app-start-intent] /Users/azat/Documents/GitHub/antena/ui/app-start-intent/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:ui:app-start-intent] /Users/azat/Documents/GitHub/antena/ui/app-start-intent/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:ui:common] /Users/azat/Documents/GitHub/antena/ui/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:ui:common] /Users/azat/Documents/GitHub/antena/ui/common/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/5d2a9ab81b4cc4d8425568bbee0e9ff5/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/5d2a9ab81b4cc4d8425568bbee0e9ff5/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:4:3-70
+MERGED from [com.github.ByteHamster:SearchPreference:v2.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b747737933f6dcd97f0dca7584a092c6/jetified-SearchPreference-v2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ByteHamster:SearchPreference:v2.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b747737933f6dcd97f0dca7584a092c6/jetified-SearchPreference-v2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/72e71029a019b1787d74899cc3252927/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/72e71029a019b1787d74899cc3252927/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.leinardi:FloatingActionButtonSpeedDial:3.1.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/0e6a025ec0cf0980e72a4bf1e00b37fd/jetified-FloatingActionButtonSpeedDial-3.1.1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.leinardi:FloatingActionButtonSpeedDial:3.1.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/0e6a025ec0cf0980e72a4bf1e00b37fd/jetified-FloatingActionButtonSpeedDial-3.1.1/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/34d156a72225b1e23fe472a0cd87b8ff/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/34d156a72225b1e23fe472a0cd87b8ff/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.shts:TriangleLabelView:1.1.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/ce5ddd49f99e898ebef98a0130cc0d27/jetified-TriangleLabelView-1.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.shts:TriangleLabelView:1.1.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/ce5ddd49f99e898ebef98a0130cc0d27/jetified-TriangleLabelView-1.1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.skydoves:balloon:1.1.5] /Users/azat/.gradle/caches/transforms-2/files-2.1/7a0b1fd3f110b444be0a40d671714bcd/jetified-balloon-1.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.skydoves:balloon:1.1.5] /Users/azat/.gradle/caches/transforms-2/files-2.1/7a0b1fd3f110b444be0a40d671714bcd/jetified-balloon-1.1.5/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.mediarouter:mediarouter:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/c936a40ead30b309fdc535cb79aabc42/mediarouter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.mediarouter:mediarouter:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/c936a40ead30b309fdc535cb79aabc42/mediarouter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/4e24468fbbc1858a674b12f29a193625/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/4e24468fbbc1858a674b12f29a193625/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/80aa17839fb0de06c06faee1d8900eb3/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/80aa17839fb0de06c06faee1d8900eb3/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.joanzapata.iconify:android-iconify-fontawesome:2.2.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/c2aaf341c346b928c370605a67df0543/jetified-android-iconify-fontawesome-2.2.2/AndroidManifest.xml:6:5-43
+MERGED from [com.joanzapata.iconify:android-iconify-fontawesome:2.2.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/c2aaf341c346b928c370605a67df0543/jetified-android-iconify-fontawesome-2.2.2/AndroidManifest.xml:6:5-43
+MERGED from [com.joanzapata.iconify:android-iconify-material:2.2.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/47c5ba255477b698aa026555611e4972/jetified-android-iconify-material-2.2.2/AndroidManifest.xml:6:5-43
+MERGED from [com.joanzapata.iconify:android-iconify-material:2.2.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/47c5ba255477b698aa026555611e4972/jetified-android-iconify-material-2.2.2/AndroidManifest.xml:6:5-43
+MERGED from [com.joanzapata.iconify:android-iconify:2.2.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/d43347032c9694579a9003cb21817769/jetified-android-iconify-2.2.2/AndroidManifest.xml:6:5-43
+MERGED from [com.joanzapata.iconify:android-iconify:2.2.2] /Users/azat/.gradle/caches/transforms-2/files-2.1/d43347032c9694579a9003cb21817769/jetified-android-iconify-2.2.2/AndroidManifest.xml:6:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/1fce78db051842cb898283b4e6634ad7/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/1fce78db051842cb898283b4e6634ad7/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b1c95626f863b1aaddc35230c602e583/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b1c95626f863b1aaddc35230c602e583/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/01903b009a17f8eb33ba6777d730c619/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/01903b009a17f8eb33ba6777d730c619/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/ba9718988e247185ba46276ed80a7b24/jetified-exoplayer-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/ba9718988e247185ba46276ed80a7b24/jetified-exoplayer-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/34542ef18719f520c3d7a4cf134ee7af/jetified-exoplayer-ui-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/34542ef18719f520c3d7a4cf134ee7af/jetified-exoplayer-ui-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/0f9ea5154acd008eddcb2224a98aa301/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/0f9ea5154acd008eddcb2224a98aa301/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-alpha01] /Users/azat/.gradle/caches/transforms-2/files-2.1/db1176dc4a83c01c09886ec9c404b749/jetified-viewpager2-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-alpha01] /Users/azat/.gradle/caches/transforms-2/files-2.1/db1176dc4a83c01c09886ec9c404b749/jetified-viewpager2-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-alpha02] /Users/azat/.gradle/caches/transforms-2/files-2.1/659220585ac0afcb8be27bb3f32e604a/recyclerview-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-alpha02] /Users/azat/.gradle/caches/transforms-2/files-2.1/659220585ac0afcb8be27bb3f32e604a/recyclerview-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:21:5-23:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/edbb80410c2a53098538daea215e3fe7/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/edbb80410c2a53098538daea215e3fe7/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/359fffb6ba3439dde2a8da061a0ade77/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/359fffb6ba3439dde2a8da061a0ade77/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.github.AntennaPod:AntennaPod-AudioPlayer:v2.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/eaf7a7b61a6784611c873a9463db5b2d/jetified-AntennaPod-AudioPlayer-v2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.AntennaPod:AntennaPod-AudioPlayer:v2.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/eaf7a7b61a6784611c873a9463db5b2d/jetified-AntennaPod-AudioPlayer-v2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.palette:palette:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/3aa78e4c8320127bc9ee51b589306d7d/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/3aa78e4c8320127bc9ee51b589306d7d/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/01608e1e4c72e607a8f39bb5a2311a61/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/01608e1e4c72e607a8f39bb5a2311a61/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/76b568c6f36e746b7d753ce62e160b0f/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] /Users/azat/.gradle/caches/transforms-2/files-2.1/76b568c6f36e746b7d753ce62e160b0f/documentfile-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/0f10f3ff8af3b533f2dc0c2655bfc44e/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/0f10f3ff8af3b533f2dc0c2655bfc44e/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/e1aa9fbdbbcdfdedc886dde3017f8393/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/e1aa9fbdbbcdfdedc886dde3017f8393/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/07295853cfe3941600e6dc07f52419c8/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/07295853cfe3941600e6dc07f52419c8/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/7c073aad28e7d9962184b01389c375b7/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/7c073aad28e7d9962184b01389c375b7/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/c4444e97d995c45082fc36cdad9f4635/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/c4444e97d995c45082fc36cdad9f4635/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/0eb43b98dc4c4ba698e3c317cf91f34a/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/0eb43b98dc4c4ba698e3c317cf91f34a/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8a3accdcbf50a6997c096452966cb486/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8a3accdcbf50a6997c096452966cb486/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/fe8d7deb1c5179c59013401716b4c3e8/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/fe8d7deb1c5179c59013401716b4c3e8/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/376f150364fb08ffdeff70f4790ded37/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/376f150364fb08ffdeff70f4790ded37/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/99225feaee6147db8f9b6a138f033563/percentlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.percentlayout:percentlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/99225feaee6147db8f9b6a138f033563/percentlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/d59cb1b7deae11a87d52ee423cf6b788/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/d59cb1b7deae11a87d52ee423cf6b788/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/ce6846c3d1eac614bb9b034a3c1b77b1/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/ce6846c3d1eac614bb9b034a3c1b77b1/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/053a1d83f55771335ee1d75fc9826f40/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/053a1d83f55771335ee1d75fc9826f40/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/604b7e8f96290680ea5df7c9bebe37ec/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/604b7e8f96290680ea5df7c9bebe37ec/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/cfbecf75b6930f1adbc7c9db84f764cd/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/cfbecf75b6930f1adbc7c9db84f764cd/core-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/84923785ed744a554a059dabc610c456/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/84923785ed744a554a059dabc610c456/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/034a48de7992aa2c1bfe39b05db23f5b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/034a48de7992aa2c1bfe39b05db23f5b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/372d3afdd6a4f04a7ad5ab9f4a8855c5/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/372d3afdd6a4f04a7ad5ab9f4a8855c5/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/081d36616a0df22ec19a6491af4f9060/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/081d36616a0df22ec19a6491af4f9060/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/6e55615df06e4ef129a5440432e06c24/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/6e55615df06e4ef129a5440432e06c24/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/6ad9d7c3354a8162bfc26cf962c2d38b/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/6ad9d7c3354a8162bfc26cf962c2d38b/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/901564422fae0a9c99c57042eaf55d2a/jetified-exoplayer-dash-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/901564422fae0a9c99c57042eaf55d2a/jetified-exoplayer-dash-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/2b3b25f6fdc4467703ce94eb4db8d77d/jetified-exoplayer-hls-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/2b3b25f6fdc4467703ce94eb4db8d77d/jetified-exoplayer-hls-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/3d750b67d9bdc3f7e95a134a39bd0a31/jetified-exoplayer-smoothstreaming-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/3d750b67d9bdc3f7e95a134a39bd0a31/jetified-exoplayer-smoothstreaming-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/d627947140be9fbd216fac140677bb71/jetified-exoplayer-core-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.11.8] /Users/azat/.gradle/caches/transforms-2/files-2.1/d627947140be9fbd216fac140677bb71/jetified-exoplayer-core-2.11.8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8f014668c2a5b0f2e39faf3939a2e9f0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8f014668c2a5b0f2e39faf3939a2e9f0/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/eb9ddfdf9b0912dae95d92f9d7d8734c/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/eb9ddfdf9b0912dae95d92f9d7d8734c/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/60f0d688c201be5f439562fb859c1ca3/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/60f0d688c201be5f439562fb859c1ca3/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/f8b181885c9a25a34401a7ac5f22c9d9/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/f8b181885c9a25a34401a7ac5f22c9d9/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/c3d2dc93c43ff0427b7cbf44c40afc40/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/c3d2dc93c43ff0427b7cbf44c40afc40/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/953ca17c4f29c3f59c7bf6bd4c744279/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/953ca17c4f29c3f59c7bf6bd4c744279/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/70b7ba6183a794971c637feafdadd468/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/70b7ba6183a794971c637feafdadd468/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/78d375792c01b926d9a43d0a537bbfd8/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/78d375792c01b926d9a43d0a537bbfd8/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b22be536486e5756020e5007bde6aac9/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b22be536486e5756020e5007bde6aac9/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/a00a30e50991b36ec363df156c81216c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/a00a30e50991b36ec363df156c81216c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/5236da57d29bc0033e511889f647ed87/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/5236da57d29bc0033e511889f647ed87/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.conscrypt:conscrypt-android:2.4.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/f050cf8431eb4030ac0629b8770971f2/jetified-conscrypt-android-2.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [org.conscrypt:conscrypt-android:2.4.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/f050cf8431eb4030ac0629b8770971f2/jetified-conscrypt-android-2.4.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:6:5-8:41
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+		ADDED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/azat/Documents/GitHub/antena/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:16:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:17:22-63
+service#de.danoeh.antennapod.core.service.download.DownloadService
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:23:9-25:38
+	android:enabled
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:24:13-86
+service#de.danoeh.antennapod.core.service.playback.PlaybackService
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:26:9-35:19
+	android:enabled
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:28:13-35
+	android:label
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:30:13-45
+	android:exported
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:29:13-36
+	tools:ignore
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:31:13-43
+	android:name
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:27:13-86
+intent-filter#action:name:android.media.browse.MediaBrowserService
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:32:13-34:29
+action#android.media.browse.MediaBrowserService
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:33:17-83
+	android:name
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:33:25-80
+receiver#de.danoeh.antennapod.core.receiver.MediaButtonReceiver
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:37:9-46:20
+	android:exported
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:38:13-82
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:40:13-42:29
+action#android.intent.action.MEDIA_BUTTON
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:41:25-74
+intent-filter#action:name:de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:43:13-45:29
+action#de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:44:17-86
+	android:name
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:44:25-83
+receiver#de.danoeh.antennapod.core.receiver.FeedUpdateReceiver
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:47:9-51:47
+	android:label
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:50:13-62
+	android:exported
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:49:13-36
+	tools:ignore
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:48:13-81
+service#de.danoeh.antennapod.core.widget.WidgetUpdaterJobService
+ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:53:9-56:72
+	android:exported
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:55:13-36
+	android:permission
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:56:13-69
+	android:name
+		ADDED from [:core] /Users/azat/Documents/GitHub/antena/core/build/intermediates/library_manifest/freeDebug/AndroidManifest.xml:54:13-84
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
+	android:process
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
+	android:enabled
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
+	android:exported
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
+	android:name
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
+	android:enabled
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
+	android:exported
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
+	android:theme
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
+	android:name
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
+	android:enabled
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
+	android:exported
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
+	android:name
+		ADDED from [com.google.android.play:core:1.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/b54a28df807472d4963c17d1301c3fbd/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
+uses-library#com.google.android.wearable
+ADDED from [com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:10:9-12:40
+	android:required
+		ADDED from [com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.google.android.support:wearable:2.6.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/8d11548fb9784b68519b81dd91dd4fbf/jetified-wearable-2.6.0/AndroidManifest.xml:11:13-55
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:31:9-37:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:33:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:36:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:32:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:66:13-106
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:99:13-103
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:114:13-118:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:115:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:115:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.3.4] /Users/azat/.gradle/caches/transforms-2/files-2.1/1b2ab29216d8a200d28086cd6ec4b2ef/work-runtime-2.3.4/AndroidManifest.xml:127:25-95
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.3] /Users/azat/.gradle/caches/transforms-2/files-2.1/cbb0bfac52185bfff0696e23ba390377/room-runtime-2.2.3/AndroidManifest.xml:26:13-74
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] /Users/azat/.gradle/caches/transforms-2/files-2.1/dd73a4411f2d801bbf25b0228d3adc0d/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml:12:13-84

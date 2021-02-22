@@ -1,0 +1,306 @@
+[
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/statistics_listitem.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/statistics_listitem.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/splash.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/simplechapter_item.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/simplechapter_item.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/queue_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/queue_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/gpodnet_podcast_list.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/gpodnet_podcast_list.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/gpodnetauth_device_row.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/gpodnetauth_device_row.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/videoplayer_activity.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/videoplayer_activity.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/cover_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/cover_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/quick_feed_discovery.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/quick_feed_discovery.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/authentication_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/authentication_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/audioplayer_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/audioplayer_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/fragment_itunes_search.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/fragment_itunes_search.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/feedinfo.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/feedinfo.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/addfeed.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/addfeed.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/downloadlist_item.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/downloadlist_item.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/filter_dialog_row.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/filter_dialog_row.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/episode_filter_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/episode_filter_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/statistics_listitem_total.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/statistics_listitem_total.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/secondary_action.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/secondary_action.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/gpodnet_tag_listitem.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/gpodnet_tag_listitem.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/quick_feed_discovery_item.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/quick_feed_discovery_item.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/pager_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/pager_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/gpodnetauth_device.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/gpodnetauth_device.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/subscription_item.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/subscription_item.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/simple_icon_list_item.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/simple_icon_list_item.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/item_description_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/item_description_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/simple_list_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/simple_list_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/nav_list.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/nav_list.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/proxy_settings.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/proxy_settings.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/playback_speed_seek_bar.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/playback_speed_seek_bar.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/onlinefeedview_header.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/onlinefeedview_header.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/speed_select_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/speed_select_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/statistics_mode_select_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/statistics_mode_select_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/downloadlog_item.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/downloadlog_item.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/onlinefeedview_activity.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/onlinefeedview_activity.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/numberpicker.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/numberpicker.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/filter_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/filter_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/nav_section_item.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/nav_section_item.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/external_player_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/external_player_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/choose_data_folder_dialog_entry.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/choose_data_folder_dialog_entry.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/time_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/time_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/search_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/search_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/fragment_subscriptions.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/fragment_subscriptions.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/main.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/feeditemlist_header.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/feeditemlist_header.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/edit_text_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/edit_text_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/checkbox_do_not_show_again.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/checkbox_do_not_show_again.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/feed_item_list_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/feed_item_list_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/storage_error.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/storage_error.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/feeditem_pager_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/feeditem_pager_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/nav_listitem.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/nav_listitem.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/statistics_activity.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/statistics_activity.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/feeditemlist_item.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/feeditemlist_item.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/feeditem_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/feeditem_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/gpodnet_podcast_listitem.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/gpodnet_podcast_listitem.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/episodes_apply_action_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/episodes_apply_action_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/gpodnetauth_credentials.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/gpodnetauth_credentials.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/opml_selection.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/opml_selection.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/empty_view_layout.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/empty_view_layout.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/about_teaser.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/about_teaser.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/ellipsize_start_listitem.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/ellipsize_start_listitem.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/share_episode_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/share_episode_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/feedsettings.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/feedsettings.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/itemdescription_listitem.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/itemdescription_listitem.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/gpodnetauth_host.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/gpodnetauth_host.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/activity_widget_config.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/activity_widget_config.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/searchlist_item_feed.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/searchlist_item_feed.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/audio_controls.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/audio_controls.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/gpodnetauth_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/gpodnetauth_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/all_episodes_fragment.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/all_episodes_fragment.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/choose_data_folder_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/choose_data_folder_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/simple_list_item_multiple_choice_on_start.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/simple_list_item_multiple_choice_on_start.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/bug_report.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/bug_report.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/feed_pref_skip_dialog.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/feed_pref_skip_dialog.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/itunes_podcast_listitem.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/itunes_podcast_listitem.xml"
+    },
+    {
+        "merged": "/Users/azat/Documents/GitHub/antena/app/build/intermediates/incremental/mergeFreeDebugResources/stripped.dir/layout/gpodnetauth_finish.xml",
+        "source": "/Users/azat/Documents/GitHub/antena/app/src/main/res/layout/gpodnetauth_finish.xml"
+    }
+]

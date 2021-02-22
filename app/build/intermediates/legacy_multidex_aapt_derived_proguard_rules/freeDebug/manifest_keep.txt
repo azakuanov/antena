@@ -1,0 +1,6 @@
+# Referenced at /Users/azat/Documents/GitHub/antena/app/build/intermediates/merged_manifests/freeDebug/AndroidManifest.xml:37
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/azat/Documents/GitHub/antena/app/build/intermediates/merged_manifests/freeDebug/AndroidManifest.xml:37
+-keep class de.danoeh.antennapod.PodcastApp { <init>(); }
+# Referenced at /Users/azat/Documents/GitHub/antena/app/build/intermediates/merged_manifests/freeDebug/AndroidManifest.xml:37
+-keep class de.danoeh.antennapod.core.backup.OpmlBackupAgent { <init>(); }
