@@ -1,8 +1,15 @@
-plugins {
-    id('com.android.application')
-    id('com.getkeepsafe.dexcount')
-    id('com.github.triplet.play') version '2.7.5' apply false
-}
+//plugins {
+//    id('com.android.application')
+//    id('com.getkeepsafe.dexcount')
+//    id('com.github.triplet.play') version '2.7.5' apply false
+//}
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.getkeepsafe.dexcount'
+apply plugin: 'com.github.triplet.play'
+//apply plugin: 'kotlin-kapt'
+//apply plugin: 'dagger.hilt.android.plugin'
+//apply from: "../ktlint.gradle"
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
