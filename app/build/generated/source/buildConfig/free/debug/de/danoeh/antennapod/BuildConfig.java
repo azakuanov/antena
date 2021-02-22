@@ -11,7 +11,7 @@ public final class BuildConfig {
   public static final int VERSION_CODE = 2010395;
   public static final String VERSION_NAME = "2.1.3";
   // Fields from default config.
-  public static final String COMMIT_HASH = "ef21233";
+  public static final String COMMIT_HASH = "3c1e61d";
   public static final String PODCASTINDEX_API_KEY = "XTMMQGA2YZ4WJUBYY4HK";
   public static final String PODCASTINDEX_API_SECRET = "XAaAhk4^2YBsTE33vdbwbZNj82ZRLABDDqFdKe7x";
 }
